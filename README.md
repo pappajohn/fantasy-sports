@@ -1,8 +1,8 @@
 # fantasy-sports
 
-Hello! If you're in a private ESPN league with regular seasons ending week 13, this will return a table with historical stats for each team (Wins, Losses, Points For, Points Allowed)
+Hello! If you're in a private ESPN league with regular seasons ending week 13, this will return a table with historical stats for each team (Wins, Losses, Points For, Points Allowed), ending with the prior season (i.e., as of today, excluding the 2021 season)
 
-To make this work, you'll need to do a few things before (1) + (2) and after (3) running the script 
+To make this work, you'll need to do a few things before (see 1,2) and after (see 3) running the script 
 
 (1) grab your league_id and add it where specified in get_season_json
 (2) grab your swid and espn_s2 cookies and add it where specified when running r = requests... (this happens twice)
