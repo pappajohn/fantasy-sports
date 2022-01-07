@@ -5,7 +5,9 @@ Hello! If you're in a private ESPN league with regular seasons ending week 13, t
 To make this work, you'll need to do a few things before (see 1,2) and after (see 3) running the script 
 
 (1) grab your league_id and add it where specified in get_season_json
+
 (2) grab your swid and espn_s2 cookies and add it where specified when running r = requests... (this happens twice)
+
 (3) map Team ID to actual humans
 
 To do each,
